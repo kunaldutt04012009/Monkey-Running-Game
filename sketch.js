@@ -1,5 +1,5 @@
 var monkey , monkey_running,ground;
-var banana ,bananaImage, obstacle,            obstacleImage,gameoverImage;
+var banana ,bananaImage, obstacle,            obstacleImage;
 var FoodGroup, obstacleGroup;
 var score=0;
 var survivalTime=0;
@@ -11,7 +11,7 @@ function preload(){
   
   bananaImage = loadImage("banana.png");
   obstacleImage = loadImage("obstacle.png");
- gameoverImage = loadImage("game over.png");
+ 
   
 }
 
